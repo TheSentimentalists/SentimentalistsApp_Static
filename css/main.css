@@ -5,7 +5,11 @@
 }
 
 .logo-main-responsive {
-  border: 1px solid red;
   margin: auto;
   display: block;
+}
+
+.main-heading {
+    font-family: Roboto, sans-serif;
+    text-align: center;
 }
