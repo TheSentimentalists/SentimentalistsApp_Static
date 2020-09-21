@@ -1,0 +1,11 @@
+/* MAIN STYLE SHEET */
+
+.header {
+    padding-top: 20px;
+}
+
+.logo-main-responsive {
+  border: 1px solid red;
+  margin: auto;
+  display: block;
+}
