@@ -22,3 +22,8 @@
     padding-right: 10px;
 
 }
+
+
+.input-url {
+    border: 1px solid red;
+}
