@@ -1,5 +1,10 @@
 /* MAIN STYLE SHEET */
 
+* {
+    font-family: Roboto, sans-serif;
+}
+
+
 .header {
     padding-top: 20px;
 }
@@ -10,27 +15,40 @@
 }
 
 .main-heading {
-    font-family: Roboto, sans-serif;
     text-align: center;
     margin-top: 15px;
 }
 
+
+/*Text description*/
+
 .description {
-    font-family: Roboto, sans-serif;
     padding-top: 55px;
     padding-left: 10px;
     padding-right: 10px;
+    margin-bottom: 50px;    
 
+}
+
+
+/*Form*/
+
+.main-submission {
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
 }
 
 
 .input-area {
-    border: 1px solid red;
+    
 }
 
+
+/*Footer*/
+
 .footer {
+    margin-top: 25px;
     padding:30px;
-    border: 1px solid blue;
-    position: fixed;
-    bottom: 0;
+    background-color: #3e7464;
 }
