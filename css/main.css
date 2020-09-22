@@ -1,10 +1,11 @@
 /* MAIN STYLE SHEET */
 
 * {
+    box-sizing: border-box;
     font-family: Roboto, sans-serif;
 }
 
-
+/* Header */
 .header {
     padding-top: 20px;
 }
@@ -17,6 +18,7 @@
 .main-heading {
     text-align: center;
     margin-top: 15px;
+    font-family: Graduate, cursive;
 }
 
 
@@ -38,7 +40,9 @@
     margin-bottom: 70px;
 }
 
-
+.submit-btn {
+    background-color:#6bb26d;
+}
 
 
 /*Footer*/
@@ -46,5 +50,14 @@
 .footer {
     margin-top: 25px;
     padding:30px;
-    background-color: #3e7464;
+    background-color: #6bb26d;
+    
+}
+
+/* Media Queries */
+
+@media only screen and (min-width: 768px){
+        .description {
+            padding-top: 20px;
+        }
 }
