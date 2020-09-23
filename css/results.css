@@ -19,18 +19,15 @@ margin-top: 20px;
   margin-top: 0px;
 }
 
-.flexbox {
+.panel-row {
   border: 1px solid red;
-  margin-top: 30px;
   display: flex;
-  flex-direction: row;
 }
 
-.info-panel {
-  padding-bottom: 12px;
-  margin: 3px;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0px 2px 0 rgba(0, 0, 0, 0.12);
-
+.panel-box {
+  
+  box-shadow: 3px 3px 4px gray;
+  
 }
 
 /* Media Queries */
