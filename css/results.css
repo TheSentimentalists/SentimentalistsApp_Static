@@ -12,11 +12,33 @@
 }
 
 .results-output {
-margin-top: 20px;
+  margin-top: 20px;
 }
 
 .results-header {
   margin-top: 0px;
+}
+
+.panel-row {
+  display: flex; /* panels wrap on small screens*/
+  margin-top: 25px;
+  padding-left: 7px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.panel-box {
+  margin-top: 4px;
+  padding-top: 12px;
+  padding-bottom: 25px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 2px 0 rgba(0, 0, 0, 0.12);
+}
+
+.analysis-section {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 2px 0 rgba(0, 0, 0, 0.12);
+  margin-top: 50px;
+  padding-top: 12px;
+  padding-bottom: 40px;
 }
 
 /* Media Queries */
