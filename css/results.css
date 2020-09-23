@@ -31,6 +31,11 @@ margin-top: 20px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,.16), 0 0 2px 0 rgba(0,0,0,.12);
 }
 
+
+.analysis-section {
+  margin-top: 50px;
+}
+
 /* Media Queries */
 
 @media only screen and (min-width: 768px) {
