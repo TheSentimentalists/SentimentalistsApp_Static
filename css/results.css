@@ -22,13 +22,13 @@ margin-top: 20px;
 .panel-row {
   display: flex; /*display flex stretches the panel boxes to fit the row height*/
   margin-top: 25px;
+  padding-left: 7px;
 }
 
 .panel-box {
   padding-top: 12px;
   padding-bottom: 25px;
-  box-shadow: 3px 3px 4px gray;
-  
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.16), 0 0 2px 0 rgba(0,0,0,.12);
 }
 
 /* Media Queries */
