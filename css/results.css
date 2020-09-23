@@ -11,6 +11,10 @@
   height: auto;
 }
 
+.results-output {
+margin-top: 20px;
+}
+
 .results-header {
   margin-top: 0px;
 }
