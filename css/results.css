@@ -25,7 +25,8 @@ margin-top: 20px;
 }
 
 .panel-box {
-  
+  padding-top: 12px;
+  padding-bottom: 25px;
   box-shadow: 3px 3px 4px gray;
   
 }
